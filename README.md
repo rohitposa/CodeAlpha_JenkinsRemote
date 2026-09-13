@@ -6,18 +6,13 @@ Jenkins Controller aur Remote Agent setup AWS EC2 (t2.medium, Amazon Linux) pe k
 ## Screenshots
 
 ### Jenkins Dashboard
-![Dashboard](screenshots/1-dashboard.png)
-
-### Agent Node Details
-![Node Status](screenshots/2-node-status.png)
+![Dashboard](jenkins-dashboard.png)
 
 ### Nodes Overview Page
-![Nodes Page](screenshots/3-nodes-page.png)
+![Nodes Page](nodes-overview.png)
 
 ### Console Output - Job Successfully Ran on Remote Agent
-![Console Output](screenshots/4-console-output.png)
+![Console Output](build-console-success.png)
 
 ## Result
-Job successfully "remote-jenk-1" node pe run hua (Build: SUCCESS), 
-jisse confirm hota hai ki Jenkins Controller-Agent architecture sahi 
-se setup aur configure hua.
+Job successfully "remote-jenk-1" node pe run hua (Build: SUCCESS), jisse confirm hota hai ki Jenkins Controller-Agent architecture sahi se setup aur configure hua.
