@@ -1,7 +1,7 @@
 # CodeAlpha Jenkins Remoting Project
 
 ## Overview
-Jenkins Controller aur Remote Agent setup AWS EC2 (t2.medium, Amazon Linux) pe kiya gaya.
+Set up a Jenkins Controller and Remote Agent on an AWS EC2 instance (t2.medium, redhat server). Configured a permanent agent node connected via JNLP over WebSocket, and ran a test job restricted to execute specifically on the remote agent.
 
 ## Screenshots
 
@@ -15,4 +15,4 @@ Jenkins Controller aur Remote Agent setup AWS EC2 (t2.medium, Amazon Linux) pe k
 ![Console Output](build-console-success.png)
 
 ## Result
-Job successfully "remote-jenk-1" node pe run hua (Build: SUCCESS), jisse confirm hota hai ki Jenkins Controller-Agent architecture sahi se setup aur configure hua.
+The job successfully executed on the "remote-jenk-1" node (Build: SUCCESS), confirming that the Jenkins Controller-Agent architecture was correctly set up and configured.
